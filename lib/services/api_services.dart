@@ -3,7 +3,7 @@
 // import 'package:todo_app/models/todo.dart';
 
 // class ApiServices {
-//   static const String baseURL = 'http://localhost:2000/api/todos';
+//   static const String baseURL = 'https://server-for-todo.vercel.app/api/todos';
 //   //get all todos
 //   static Future<List<Todo>> getTodos() async {
 //     try {
