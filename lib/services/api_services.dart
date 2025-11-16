@@ -94,7 +94,7 @@ import 'package:http/http.dart' as http;
 import 'package:todo_app/models/todo.dart';
 
 class ApiServices {
-  static const baseURL = 'https://server-for-todo.vercel.app/api/todos';
+  static const baseURL = 'https://server-for-todo-production.up.railway.app/api/todos';
   //get all todos
   static Future<List<Todo>> getTodos() async {
     try {
